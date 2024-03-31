@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="pag2/style.css">
+    <link rel="stylesheet" href="pag2/responsivo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <title>Finalize a sua compra!</title>
+</head>
+<body>
+    <header >
+
+        
+            
+        <nav>
+            <p>Garantimos que você  <br> fez a <strong>melhor escolha</strong>.</p>
+
+
+            <div><img src="imagens/logo.png" alt="logo da loja"></div>
+
+            <div class="selo">
+                <i class="bi bi-check-circle-fill"></i>
+                <hr>
+                <p>Selo de melhor loja <br> de constução do Brasil!</p>
+
+            </div>
+
+            
+            
+            
+        </nav>
+        
+    </div>
+</header>
+
+<section class="conteiner">
+    <form action="cadastro.php" method="get">
+        <div class="cabecalhoLogin">
+            <h1>1. Indentificação</h1>
+        </div>
+
+        <div class="conteudo">
+            <div class="cabecalhoInfos">
+                <h2>Dados pessoais</h2>
+            <span>* Campos obrigatorios</span>
+            </div>
+            <input class="box" type="email" name="email" id="email" placeholder="E-mail *" required>
+            <input class="box" type="text" name="cpf" id="cpf" placeholder="CPF *" required>
+            <input class="box" type="text" name="name" id="name" placeholder="Nome completo *" required>
+            <input class="box" type="date" name="date" id="date" placeholder="Data de nascimento">
+            <input class="box" type="number" name="celular" id="celular" placeholder="Celular *">
+            <div class="checkboxInputs">
+                <p><input class="promocoes" type="checkbox" name="promocoes" id="promocoes"> Quero receber promoções via Whatsapp.</p>
+
+                <p><input type="checkbox" name="Atualizacoes" id="Atualizacoes"> Quero receber atualizações via Whatsapp.</p>
+            </div>
+            <div class="generoBox">
+                <h2>Gênero</h2> 
+              <section>
+                  <p><input type="radio" name="genero" id="">  Marculino</p>
+                  <p><input type="radio" name="genero" id="">  Feminino</p>
+                  <p><input type="radio" name="genero" id="">  Outro</p>
+              </section>
+            </div>
+            <input class="box" type="password" name="password" id="password" placeholder="Senha * (8 ou mais caracteres)" minlength="8" required>
+            <input class="cadastrar" type="submit" value="Cadastrar">
+        </div>
+
+
+
+
+    </form>
+
+</section>
+    
+</body>
+</html>
